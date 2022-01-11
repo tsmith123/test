@@ -8,3 +8,8 @@ issue:
       * reproduction steps
       * to reproduce
       
+pr:
+  - rules:
+      - title.eq./^\[WPS-[0-9]{1,4}\]/
+    message: "Titles should have the format [WPS-xxx] and a short description"
+    
