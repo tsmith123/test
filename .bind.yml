@@ -1,0 +1,10 @@
+issue:
+  - conditions:
+      - labels.eq.bug
+    rules:
+      - body.eq./reproduction steps|to reproduce/i
+    message: |
+      As you have added a bug label please add your reproduction steps in the body using one of:
+      * reproduction steps
+      * to reproduce
+      
